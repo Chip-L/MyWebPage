@@ -55,6 +55,11 @@ nav a {
   text-decoration: none;
 }
 
+/* changes the color when pointed at  */
+nav a:hover {
+  color: saddlebrown;
+}
+
 main {
   text-align: center;
   margin: 60px auto;
@@ -93,6 +98,11 @@ form ul {
 
 form li {
   margin: 3px;
+}
+
+/* restore initial values */
+input {
+  padding: 1px 6px;
 }
 
 form button {
