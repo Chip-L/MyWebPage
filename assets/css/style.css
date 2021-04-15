@@ -18,15 +18,42 @@ header {
 nav {
   margin: 5px;
   padding: 5px;
-  position: relative;
+  text-align: right;
+}
+
+nav ul {
+  margin: 10px;
 }
 
 nav li {
   display: inline;
   text-decoration: none;
+  margin: 5px;
 }
 
 nav a {
   color: wheat;
   font-weight: bold;
+}
+
+main {
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+img {
+  height: 200px;
+}
+
+.form-section {
+  text-align: center;
+}
+form {
+  border: saddlebrown solid 5px;
+  border-radius: 5px;
+}
+
+footer {
+  position: relative;
+  text-align: center;
 }
