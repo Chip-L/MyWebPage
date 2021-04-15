@@ -23,27 +23,37 @@
         </ul>
       </nav>
     </header>
+
     <main>
-      <h1>My New Website</h1>
-      <img
-        id="main-img"
-        src="https://images.unsplash.com/photo-1536283865487-627ae241d1b2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGZhbnRhc3l8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-        alt="being given a crown"
-      />
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <section class="main-content">
+        <h1>My New Website</h1>
+
+        <img
+          class="main-img"
+          src="https://images.unsplash.com/photo-1536283865487-627ae241d1b2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGZhbnRhc3l8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+          alt="being given a crown"
+        />
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </section>
       <section class="contact-section">
         <h2>Contact Me</h2>
-        <section class="form-section">
-          <form>
-            <label for="name">Name: </label>
-            <input type="text" id="name" name="name" /><br />
-            <label for="email">Email: </label>
-            <input type="text" id="email" name="email" /><br />
-            <button type="button">Submit</button>
-          </form>
-        </section>
+        <form>
+          <ul>
+            <li>
+              <label for="name">Name: </label>
+              <input type="text" id="name" name="name" />
+            </li>
+            <li>
+              <label for="email">Email: </label>
+              <input type="text" id="email" name="email" /><br />
+            </li>
+          </ul>
+          <!-- removing the button from the list frees it from the alignment of the list items -->
+          <button type="button">Submit</button>
+        </form>
       </section>
     </main>
+
     <footer>
       <p>&#169; 2021 My Mew Website Productions</p>
     </footer>
