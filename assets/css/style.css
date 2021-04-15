@@ -2,3 +2,31 @@
 * {
   font-family: "Nunito Sans", sans-serif;
 }
+
+body {
+  background-color: tan;
+  width: 100%;
+}
+header {
+  background-color: forestgreen;
+  color: wheat;
+  border-bottom: 10px solid saddlebrown;
+  padding: 0px;
+  margin: 0px;
+}
+
+nav {
+  margin: 5px;
+  padding: 5px;
+  position: relative;
+}
+
+nav li {
+  display: inline;
+  text-decoration: none;
+}
+
+nav a {
+  color: wheat;
+  font-weight: bold;
+}
