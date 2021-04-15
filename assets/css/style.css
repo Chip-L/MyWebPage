@@ -1,18 +1,21 @@
 /* set universal style  */
 * {
-  font-family: "Nunito Sans", sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
+  position: relative;
+  font-family: "Nunito Sans", sans-serif;
   background-color: tan;
-  width: 100%;
 }
+
 header {
-  background-color: forestgreen;
+  position: fixed;
+  background-color: darkgreen;
   color: wheat;
   border-bottom: 10px solid saddlebrown;
-  padding: 0px;
-  margin: 0px;
+  width: 100%;
 }
 
 nav {
@@ -34,6 +37,7 @@ nav li {
 nav a {
   color: wheat;
   font-weight: bold;
+  text-decoration: none;
 }
 
 main {
@@ -41,13 +45,19 @@ main {
   background-color: whitesmoke;
 }
 
-img {
+#main-img {
   height: 200px;
 }
 
+.contact-section {
+  text-align: center;
+  border-top: 2px solid saddlebrown;
+  margin-top: 0px;
+}
 .form-section {
   text-align: center;
 }
+
 form {
   border: saddlebrown solid 5px;
   border-radius: 5px;
