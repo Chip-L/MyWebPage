@@ -16,6 +16,7 @@ header {
   color: wheat;
   border-bottom: 10px solid saddlebrown;
   width: 100%;
+  top: 0;
 }
 
 nav {
@@ -43,6 +44,12 @@ nav a {
 main {
   text-align: center;
   background-color: whitesmoke;
+  margin-top: 60px;
+}
+
+h1 {
+  padding: 20px;
+  font-weight: bolder;
 }
 
 #main-img {
